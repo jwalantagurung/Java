@@ -1,5 +1,7 @@
 ﻿Reflection in Java
 
+
+
 	Reflection is the ability of a program to analyze itself. The java.lang.reflect package provides the ability to obtain the information about the fields,constructors,methods, and modifiers of a class.Normally such information is needed to build software tools that enable us to do work with Java Beans components. The tools use reflection to determine dynamically the characteristics of a component.
 
 	Java reflection is useful because it supports dynamic retrieval of information about classes and data structures by name, and allows for their manipulation wityhin an executing Java program.This feature is extremely powerful and has no equivalent in other convectional languages such as C,C++,Fortan,or pascal.
@@ -24,7 +26,7 @@ public class PersonClass{
   Integer age;
 
   public PersonClass(){
-    this.name = "Shivaji";
+    this.name = "Jwolan";
     this.age = 25;
   }
 
