@@ -20,3 +20,20 @@
 	Performance Overhead
 	Security Restrictions
 	Exposure of Internals
+Program::
+
+class Person{}
+
+class Reflect{
+
+    public static void main(String args[]){
+    
+    Class reflectClass = Person.class;
+    
+    String name = reflectClass.getName();
+    
+    System.out.println("Name: "+name);
+    
+ }
+ 
+}
